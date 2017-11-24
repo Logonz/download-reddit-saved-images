@@ -1,4 +1,8 @@
 username: your_username
 password: your_password
 save_dir: your_dir
+reddit_clientid: your_cid
+reddit_clientsecret: your_secret
+imgur_clientid: your_cid
+imgur_clientsecret: your_secret
 # save_dir example: /Users/adrian/reddit_imgs
