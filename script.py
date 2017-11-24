@@ -358,9 +358,9 @@ print("Logging in...")
 #R.login(username=USERNAME, password=PASSWORD)
 print("Logged in.")
 print("Getting data...")
-file = open("downloadvideos.txt","w")
+file = open("downloadvideos.txt","w") #use youtube-dl for this and change it to .bat
 file.close()
-file = open("testfile.txt","w") 
+file = open("unhandledlinks.txt","w") 
 file.close()
 # this returns a generator
 SAVED_LINKS = R.user.me().saved(limit=None)
